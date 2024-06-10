@@ -86,7 +86,6 @@ local Keywords = {
     {"pedo", "⁥⁥⁥⁥⁥р⁥⁥⁥⁥⁥е⁥⁥⁥⁥⁥ɗ⁥⁥⁥⁥⁥о⁥⁥⁥⁥⁥"},
     {"hate", "һаtе"},
     {"balls", "bаӏӏѕ"},
-    {" ", ""}
     {"shit", "s⁥⁥⁥⁥⁥⁥⁥⁥һit"},
     {"bitch", "bi⁥⁥⁥⁥⁥⁥⁥⁥tсһ"},
     {"kill", "kіll"},
@@ -94,6 +93,7 @@ local Keywords = {
     {"Ballsack", "Вallsack"},
     {"shoot", "shооt"},
     {"meth", "mеth"},
+    {" ", ""}
 }
 
 local Gen = function(Message)
