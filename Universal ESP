@@ -1,0 +1,316 @@
+-- Instances:
+
+local UniversalESP = Instance.new("ScreenGui")
+local Body = Instance.new("Frame")
+local Body_2 = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local Generate = Instance.new("TextButton")
+local RemoveButton = Instance.new("TextButton")
+local Status = Instance.new("ImageLabel")
+local Esp = Instance.new("Folder")
+local Esp_2 = Instance.new("SurfaceGui")
+local Surface = Instance.new("Frame")
+local Esp_3 = Instance.new("SurfaceGui")
+local Surface_2 = Instance.new("Frame")
+local Esp_4 = Instance.new("SurfaceGui")
+local Surface_3 = Instance.new("Frame")
+local Esp_5 = Instance.new("SurfaceGui")
+local Surface_4 = Instance.new("Frame")
+local Esp_6 = Instance.new("SurfaceGui")
+local Surface_5 = Instance.new("Frame")
+local Esp_7 = Instance.new("SurfaceGui")
+local Surface_6 = Instance.new("Frame")
+local Indicator = Instance.new("Folder")
+local EspParName = Instance.new("BillboardGui")
+local NameEsp = Instance.new("TextLabel")
+
+--Properties:
+
+UniversalESP.Name = "UniversalESP"
+UniversalESP.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UniversalESP.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Body.Name = "Body"
+Body.Parent = UniversalESP
+Body.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Body.BackgroundTransparency = 1.000
+Body.Position = UDim2.new(0.34562844, 0, 0.252747238, 0)
+Body.Size = UDim2.new(0, 225, 0, 225)
+Body.ZIndex = 10
+
+Body_2.Name = "Body"
+Body_2.Parent = Body
+Body_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Body_2.BackgroundTransparency = 1.000
+Body_2.Position = UDim2.new(0.00807607174, 0, -0.00308729336, 0)
+Body_2.Size = UDim2.new(0.978590608, 0, 1.00275147, 0)
+Body_2.ZIndex = 10
+Body_2.Image = "http://www.roblox.com/asset/?id=8411425774"
+Body_2.ImageColor3 = Color3.fromRGB(52, 52, 52)
+
+Title.Name = "Title"
+Title.Parent = Body
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0933333337, 0, 0.139365107, 0)
+Title.Size = UDim2.new(0, 180, 0, 33)
+Title.ZIndex = 11
+Title.Font = Enum.Font.SourceSans
+Title.Text = "@ZGamerPoland's Universal ESP"
+Title.TextColor3 = Color3.fromRGB(255, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextStrokeColor3 = Color3.fromRGB(103, 103, 103)
+Title.TextTransparency = 0.250
+Title.TextWrapped = true
+
+Generate.Name = "Generate"
+Generate.Parent = Body
+Generate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Generate.BackgroundTransparency = 1.000
+Generate.Position = UDim2.new(0.133333325, 0, 0.443888903, 0)
+Generate.Size = UDim2.new(0, 97, 0, 24)
+Generate.ZIndex = 11
+Generate.Font = Enum.Font.SourceSans
+Generate.Text = "Generate ESP"
+Generate.TextColor3 = Color3.fromRGB(255, 255, 255)
+Generate.TextSize = 14.000
+
+RemoveButton.Name = "RemoveButton"
+RemoveButton.Parent = Body
+RemoveButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RemoveButton.BackgroundTransparency = 1.000
+RemoveButton.Position = UDim2.new(0.13333334, 0, 0.741666675, 0)
+RemoveButton.Size = UDim2.new(0, 97, 0, 29)
+RemoveButton.ZIndex = 11
+RemoveButton.Font = Enum.Font.SourceSans
+RemoveButton.Text = "Remove ESP (Clear eventual bugs)"
+RemoveButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoveButton.TextScaled = true
+RemoveButton.TextSize = 14.000
+RemoveButton.TextWrapped = true
+
+Status.Name = "Status"
+Status.Parent = Body
+Status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Status.BackgroundTransparency = 1.000
+Status.Position = UDim2.new(0.648888886, 0, 0.582222223, 0)
+Status.Size = UDim2.new(0, 29, 0, 29)
+Status.ZIndex = 11
+Status.Image = "http://www.roblox.com/asset/?id=660373145"
+Status.ImageColor3 = Color3.fromRGB(255, 0, 0)
+Status.ImageTransparency = 0.500
+
+Esp.Name = "Esp"
+Esp.Parent = Body
+
+Esp_2.Name = "Esp"
+Esp_2.Parent = Esp
+Esp_2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Esp_2.AlwaysOnTop = true
+Esp_2.LightInfluence = 1.000
+
+Surface.Name = "Surface"
+Surface.Parent = Esp_2
+Surface.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Surface.BackgroundTransparency = 0.500
+Surface.Size = UDim2.new(1, 0, 1, 0)
+
+Esp_3.Name = "Esp"
+Esp_3.Parent = Esp
+Esp_3.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Esp_3.AlwaysOnTop = true
+Esp_3.Face = Enum.NormalId.Back
+Esp_3.LightInfluence = 1.000
+
+Surface_2.Name = "Surface"
+Surface_2.Parent = Esp_3
+Surface_2.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Surface_2.BackgroundTransparency = 0.500
+Surface_2.Size = UDim2.new(1, 0, 1, 0)
+
+Esp_4.Name = "Esp"
+Esp_4.Parent = Esp
+Esp_4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Esp_4.AlwaysOnTop = true
+Esp_4.Face = Enum.NormalId.Left
+Esp_4.LightInfluence = 1.000
+
+Surface_3.Name = "Surface"
+Surface_3.Parent = Esp_4
+Surface_3.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Surface_3.BackgroundTransparency = 0.500
+Surface_3.Size = UDim2.new(1, 0, 1, 0)
+
+Esp_5.Name = "Esp"
+Esp_5.Parent = Esp
+Esp_5.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Esp_5.AlwaysOnTop = true
+Esp_5.Face = Enum.NormalId.Right
+Esp_5.LightInfluence = 1.000
+
+Surface_4.Name = "Surface"
+Surface_4.Parent = Esp_5
+Surface_4.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Surface_4.BackgroundTransparency = 0.500
+Surface_4.Size = UDim2.new(1, 0, 1, 0)
+
+Esp_6.Name = "Esp"
+Esp_6.Parent = Esp
+Esp_6.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Esp_6.AlwaysOnTop = true
+Esp_6.Face = Enum.NormalId.Top
+Esp_6.LightInfluence = 1.000
+
+Surface_5.Name = "Surface"
+Surface_5.Parent = Esp_6
+Surface_5.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Surface_5.BackgroundTransparency = 0.500
+Surface_5.Size = UDim2.new(1, 0, 1, 0)
+
+Esp_7.Name = "Esp"
+Esp_7.Parent = Esp
+Esp_7.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Esp_7.AlwaysOnTop = true
+Esp_7.Face = Enum.NormalId.Bottom
+Esp_7.LightInfluence = 1.000
+
+Surface_6.Name = "Surface"
+Surface_6.Parent = Esp_7
+Surface_6.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Surface_6.BackgroundTransparency = 0.500
+Surface_6.Size = UDim2.new(1, 0, 1, 0)
+
+Indicator.Name = "Indicator"
+Indicator.Parent = Body
+
+EspParName.Name = "EspParName"
+EspParName.Parent = Indicator
+EspParName.Enabled = false
+EspParName.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+EspParName.Active = true
+EspParName.AlwaysOnTop = true
+EspParName.LightInfluence = 1.000
+EspParName.MaxDistance = 50.000
+EspParName.Size = UDim2.new(0, 200, 0, 50)
+EspParName.StudsOffset = Vector3.new(0, 3, 0)
+
+NameEsp.Name = "NameEsp"
+NameEsp.Parent = EspParName
+NameEsp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameEsp.BackgroundTransparency = 1.000
+NameEsp.BorderColor3 = Color3.fromRGB(27, 42, 53)
+NameEsp.Size = UDim2.new(0, 200, 0, 50)
+NameEsp.Font = Enum.Font.SourceSans
+NameEsp.Text = "NaN"
+NameEsp.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameEsp.TextSize = 20.000
+NameEsp.TextStrokeTransparency = 0.000
+
+-- Scripts:
+
+local function ROOOSY_fake_script() -- Title.LocalScript 
+	local script = Instance.new('LocalScript', Title)
+
+	local service = game:GetService('TweenService')
+	
+	local part = script.Parent
+	local tweenInf = TweenInfo.new(2.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.InOut, 1, true)
+	
+	local tData = {
+		
+		TextColor3 = Color3.new(0, 0, 1)
+		
+	}
+	
+	local tween = service:Create(part, tweenInf, tData)
+	
+	local function loop()
+		tween:Play()
+		wait(5)
+		loop()
+	end
+	
+	loop()
+end
+coroutine.wrap(ROOOSY_fake_script)()
+local function YBTJ_fake_script() -- Generate.GenerateEsp 
+	local script = Instance.new('LocalScript', Generate)
+
+	local plr =  game:GetService('Players').LocalPlayer
+	local activeEsp = {}
+	wait()
+	local esp = script.Parent.Parent.Esp:GetChildren()
+	
+	local function loopedEsp()
+		local players = game.Players:GetChildren()
+		for i = 1, #players do
+			if players[i].Name ~= plr.Name then
+				if not players[i].Character:FindFirstChild('EspPart') then
+					local hrp = players[i].Character:WaitForChild('HumanoidRootPart')
+					local target = players[i].Character
+					local espPart = Instance.new('Part')
+					local plr = players[i]
+					espPart.Size = target.HumanoidRootPart.Size
+					espPart.Parent = target
+					espPart.Transparency = 1
+					espPart.CanCollide = false
+					espPart.Name = 'EspPart'
+					local weld = Instance.new('Weld')
+					weld.Part0 = espPart
+					weld.Part1 = target.HumanoidRootPart
+					weld.Parent = espPart
+					local indicator = script.Parent.Parent.Indicator.EspParName:Clone()
+					indicator.Parent = espPart
+					indicator.Enabled = true
+					indicator.NameEsp.Text = espPart.Parent.Name
+					script.Parent.Parent.Status.ImageColor3 = Color3.new(0, 1, 0)
+					table.insert(activeEsp, espPart)
+					print('Player(s) has been found and ESP is enabled')
+					for j = 1, #esp do
+						wait(0.1)
+						local espClone = esp[j]:Clone()
+						espClone.Parent = espPart
+						j += 1
+					end
+				end
+			end
+		end
+	end
+	
+	script.Parent.Parent.RemoveButton.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Status.ImageColor3 = Color3.new(1, 0, 0)
+		print('ESP has been disabled')
+		for i = 1, #activeEsp do
+			activeEsp[i]:Destroy()
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		while true do
+			loopedEsp()
+			wait(1.25)
+		end
+	end)
+end
+coroutine.wrap(YBTJ_fake_script)()
+-- Body.TestSpace is disabled.
+local function YVKBBWF_fake_script() -- Body.ToggleVisibility 
+	local script = Instance.new('LocalScript', Body)
+
+	local service = game:GetService('UserInputService')
+	local isEnabled = true
+	
+	service.InputBegan:Connect(function(key)
+		if key.KeyCode == Enum.KeyCode.LeftAlt then
+			if isEnabled == true then
+				isEnabled = false
+				script.Parent.Parent.Enabled = false
+			else
+				isEnabled = true
+				script.Parent.Parent.Enabled = true
+			end
+		end
+	end)
+end
+coroutine.wrap(YVKBBWF_fake_script)()
