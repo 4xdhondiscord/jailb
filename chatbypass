@@ -1,4 +1,3 @@
-
 repeat task.wait() until game:IsLoaded()
 
 local TCS = game:GetService("TextChatService")
